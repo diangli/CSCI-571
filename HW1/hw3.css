@@ -1,0 +1,224 @@
+*{
+		margin:0;
+		padding:0;
+	}                  /*浏览器自身body的margin和padding不为0，所以必须先设为0否则height100%出现滚动条*/
+	body { 
+		width: 100%; 
+		height:auto; 	
+	}
+	div#box { 
+		width: 1280px; 
+		height:auto; 
+		margin: 0 auto; 
+	}
+	div#one{
+		background:#FFFFFF;
+		border-style:solid; 
+		border-width:6px 0 0 0; 
+		border-color:#004370;
+	}
+	.one_basic{
+		float:left; 
+		display:inline; 
+		margin-top:10px;
+		margin-bottom:10px;
+	}
+	.one_right{
+		float:right; 
+		display:inline; 
+		margin-top:10px;
+		margin-bottom:10px;
+	}
+	.align_left{
+		text-align: left;
+	}
+	.align_right{
+		text-align: right;
+	}
+	.align_center{
+		text-align:center;
+	}
+	.marginright_20{
+		margin-right:20px;
+	}
+	.marginright_100{
+		margin-right:100px;
+	}
+	.marginleft_200{
+		margin-left:200px;
+	}
+	.marginleft_120{
+		margin-left:120px;
+	}
+	.marginleft_100{
+		margin-left:100px;
+	}
+	.marginleft_10{
+		margin-left:10px;
+	}
+	.marginbottom_200{
+		margin-bottom: 200px;
+	}
+	.marginbottom_10{
+		margin-bottom: 10px;
+	}
+	.blue{
+		color: #2e94da;
+		font-family:Helvetica,Arial,sans-serif;
+	}
+	button#btn_applynow{
+		background-color: #c41139;
+		width: 180px;
+		height: 48px; 
+		border :1px #c41139 solid;
+		-moz-border-radius:6px;
+   		-webkit-border-radius:6px;
+    	border-radius:6px; 
+    	box-shadow: inset 0px 1px 4px 0px white;
+    	cursor: pointer;
+	}
+	button#btn_applynow:hover{
+		border: 1px #600000 solid;
+    	box-shadow: inset 0px 1px 4px 0px white;
+    	color: #600000;
+    	background: #600000;
+	}
+	div#two{
+		background:#004370; 
+		clear:both; 
+		padding-top:80px; 
+		padding-bottom:80px;
+	}
+	.white{
+		color: #FFFFFF;
+		font-family:Helvetica,Arial,sans-serif;
+		text-align:center;
+	}
+	.size_60{
+		font-size:60px;
+		font-family:Helvetica,Arial,sans-serif;
+	}
+	.size_30{
+		font-size:30px;
+		font-family:Helvetica,Arial,sans-serif;
+	}
+	.size_20{
+		font-size:20px;
+		font-family:Helvetica,Arial,sans-serif;
+	}
+	.size_15{
+		font-size:15px;
+		font-family:Helvetica,Arial,sans-serif;
+	}
+	.size_25{
+		font-size:25px;
+		font-family:Helvetica,Arial,sans-serif;
+	}
+	.size_45{
+		font-size:45px;
+		font-family:Helvetica,Arial,sans-serif;
+	}
+	img#img_bbn{
+		float:right;
+		display:inline;
+		margin-right:250px;margin-top:50px;
+	}
+	button#btn_getinfo{
+		background-color: #c41139;
+		width:130px;height:44px;
+		margin-left: 600px;
+		margin-top: 50px;
+	    border :1px #c41139 solid;
+		-moz-border-radius:6px;
+   		-webkit-border-radius:6px;
+    	border-radius:6px; 
+    	box-shadow: inset 0px 0.5px 2px 0px white;
+    	cursor: pointer;
+	}
+	button#btn_getinfo:hover{
+		border: 1px #600000 solid;
+    	color: #600000;
+    	background: #600000;
+    	box-shadow: inset 0px 0.5px 2px 0px white;
+	}
+	div#three{
+		clear:left;
+		background:#FFFFFF;
+		padding-bottom:80px;
+	}
+	div#three_middle{
+		text-align: left;
+		margin:10px;
+		padding:10px;
+	}
+	img#img_check1{
+		float:left; 
+		display:inline;
+		margin-left:300px;
+		margin-top:30px;
+	}
+	.three_middle_text{
+		float:left; 
+		display:inline; 
+		margin-left:10px;
+		padding-top:20px;
+	}
+	img#img_check2{
+		float:left; 
+		display:inline;
+		margin-left:90px;
+		margin-top:30px;
+	}
+	div#three_bottom{
+		clear:left;
+	}
+	img#img_check3{
+		float:left; 
+		display:inline;
+		margin-left:300px;
+		margin-top:10px;
+	}
+	.three_bottom_text{
+     	float:left; 
+     	display:inline; 
+     	margin-left:10px; 
+     	margin-bottom:80px;
+	}
+	img#img_check4{
+		float:left; 
+		display:inline; 
+		margin-left:80px;
+		margin-top:10px;
+	}
+	div#clearFloat{
+		clear:both;
+	}
+	div#four{ 
+		background:#004370;
+		clear:left;
+		border-style:solid; 
+		border-width:10px 0 0 0; 
+		border-color:#2e94da;
+		padding-top: 20px;
+		padding-bottom: 5px;
+	}
+	div#four_top{
+		padding-bottom:15px;
+	}
+	hr#horizon{
+		width:90%;
+		size:20px;
+		color:blue;
+	}
+	div#four_bottom{
+		padding-top:15px;
+		padding-bottom:10px;
+	}
+	a{text-decoration:none;}
+
+	.underline:hover
+	{
+		-moz-text-decoration-line: underline;
+		-webkit-text-decoration-line: underline;
+		text-decoration-line: underline;
+	}
